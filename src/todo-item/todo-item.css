@@ -1,0 +1,17 @@
+.todo-item
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    margin: 15px;
+    color: red;
+    margin: 20px;
+}
+
+button{
+    margin-top: 20px;
+}
+
+.todo-list{
+    padding: 15px;
+    margin: 20px;
+}
