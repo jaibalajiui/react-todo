@@ -20,13 +20,15 @@ class TodoItems extends Component {
     }
 
     addItemHandler = (event)=>{
-        this.setState(
-            {
-                itemsList:[...this.state.itemsList,this.state.item],
-                item: ''
-            }
-        );
-        console.log("addItem Handler state: ",this.state);
+        // this.setState(
+        //     {
+        //         itemsList:[...this.state.itemsList,this.state.item],
+        //         item: ''
+        //     }
+        // );
+        // console.log("addItem Handler state: ",this.state);
+        this.props.addTodo(event.target.value);
+        
     }
 
     render()

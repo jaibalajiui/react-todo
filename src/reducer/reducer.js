@@ -1,9 +1,6 @@
-import {ADD_TODO, addTodo} from '../actions/actions';
+import {ADD_TODO} from '../actions/actions';
 
-const initialState = {
-    id:0,
-    text: 'this is first todo'
-}
+
 export function toDoAppReducer(state =[],action){   
     switch(action.type){
         case ADD_TODO:return [...state,{
